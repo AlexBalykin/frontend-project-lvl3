@@ -1,2 +1,3 @@
-### Hexlet tests and linter status:
+[![Node CI](https://github.com/AlexBalykin/frontend-project-lvl3/workflows/Node%20CI/badge.svg)](https://github.com/AlexBalykin/frontend-project-lvl3/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1865ec2c9f614c4b198c/maintainability)](https://codeclimate.com/github/AlexBalykin/frontend-project-lvl3/maintainability)
 [![Actions Status](https://github.com/AlexBalykin/frontend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/AlexBalykin/frontend-project-lvl3/actions)
