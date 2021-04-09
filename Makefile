@@ -1,22 +1,16 @@
 install: install-deps
 
-build:
-	NODE_ENV='production' webpack
-
-start:
-	webpack-dev-server
-
 install-deps:
 	npm ci
 
 lint:
 	npx eslint .
 
-publish:
-	npm publish
+build:
+	NODE_ENV=production npx webpack
 
-link:
-	sudo npm link
-
-git:
-	git push origin
+serv:
+	npx webpack serve --mode development
+	
+push:
+	git push -u origin main
